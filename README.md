@@ -20,10 +20,28 @@ A small, documented toolkit that:
 - No configuration changes to any production environment
 - No security “bypass” content (this is strictly operational validation)
 
-## Repository layout
-- `data/` — mock CSV datasets (users, access_groups, device_inventory)
-- `scripts/` — audit scripts that produce human-readable findings
-- `docs/` — runbooks and SOPs for incident response and access integrity
+## Repository structure
+physical-security-data-integrity/
+├── README.md
+├── data/
+│   ├── users.csv
+│   ├── access_groups.csv
+│   └── device_inventory.csv
+├── scripts/
+│   ├── lib_io.py
+│   ├── validate_user_records.py
+│   ├── detect_orphaned_badges.py
+│   ├── audit_least_privilege.py
+│   ├── validate_device_inventory.py
+│   └── run_all_audits.py
+├── docs/
+│   ├── alarm_response_runbook.md
+│   ├── access_provisioning_sop.md
+│   └── escalation_guidelines.md
+└── change_requests/
+    ├── CR-TEMPLATE.md
+    ├── CR-2026-001-revoke-inactive-access.md
+    └── CR-2026-002-fix-device-inventory.md
 
 ## Scripts
 - `scripts/validate_user_records.py` - checks for active users without a badge id and for duplicate badge assignments across users
