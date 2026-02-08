@@ -5,6 +5,7 @@ import subprocess
 import sys
 
 SCRIPTS = [
+    "validate_user_records.py",
     "detect_orphaned_badges.py",
     "audit_least_privilege.py",
     "validate_device_inventory.py",
