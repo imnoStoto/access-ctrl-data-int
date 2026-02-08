@@ -1,0 +1,6 @@
+user_id,full_name,department,location,badge_id,status,last_day
+U1001,Alice Smith,Engineering,Dearborn,BG-2401,ACTIVE,
+U1002,Bob Johnson,Facilities,Dearborn,BG-2402,INACTIVE,2026-01-19
+U1003,Chris Lee,Security Operations,Allen Park,BG-2403,ACTIVE,
+U1004,Dana Patel,Contractor - IT,Dearborn,BG-2404,ACTIVE,
+U1005,Evan Brooks,Engineering,Allen Park,,ACTIVE,

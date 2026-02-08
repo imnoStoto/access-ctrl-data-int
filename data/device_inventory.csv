@@ -1,0 +1,5 @@
+device_id,device_type,site,location,ip_address,status,naming_convention_ok
+DR-DB-001,Badge Reader,Dearborn,Plant Lobby Door 1,10.10.1.12,ACTIVE,true
+DR-DB-002,Badge Reader,Dearborn,Plant Lobby Door 2,10.10.1.13,ACTIVE,true
+CAM-AP-014,Camera,Allen Park,Dock Bay 3,10.10.2.45,ACTIVE,true
+SEN-DB-003,Perimeter Sensor,Dearborn,Fence Line North,,ACTIVE,false
