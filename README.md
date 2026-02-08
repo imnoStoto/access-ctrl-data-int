@@ -26,6 +26,7 @@ A small, documented toolkit that:
 - `docs/` — runbooks and SOPs for incident response and access integrity
 
 ## Scripts
+- `scripts/validate_user_records.py` - checks for active users without a badge id and for duplicate badge assignments across users
 - `scripts/detect_orphaned_badges.py` — flags badge assignments not tied to valid/active user records
 - `scripts/audit_least_privilege.py` — highlights high-risk groups and review-worthy combinations
 - `scripts/validate_device_inventory.py` — validates device inventory completeness/integrity (required fields, IPs, naming flags)
@@ -35,6 +36,3 @@ A small, documented toolkit that:
 From the repo root:
 ```bash
 python3 scripts/run_all_audits.py *This runs all 3 audit scripts sequentially individually*
-python3 scripts/detect_orphaned_badges.py *This runs the badge orphan check individually*
-python3 scripts/audit_least_privilege.py *This runs the privilege check individually*
-python3 scripts/validate_device_inventory.py *This runs the device inventory check individually*
