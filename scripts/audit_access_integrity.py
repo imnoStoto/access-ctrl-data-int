@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """
 Access Control Data Integrity Audit (mock data)
 
@@ -15,6 +16,7 @@ Checks:
 Output:
 - Human-readable findings and recommended actions.
 """
+
 
 from __future__ import annotations
 import csv
