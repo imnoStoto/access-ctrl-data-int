@@ -22,26 +22,24 @@ A small, documented toolkit that:
 
 ## Repository structure
 physical-security-data-integrity/
+├── data
+│   ├── access_groups.csv
+│   ├── device_inventory.csv
+│   └── users.csv
+├── docs
+│   ├── access_provisioning_sop.md
+│   ├── alarm_response_runbook.md
+│   └── escalation_guidelines.md
 ├── README.md
-├── data/
-│   ├── users.csv
-│   ├── access_groups.csv
-│   └── device_inventory.csv
-├── scripts/
-│   ├── lib_io.py
-│   ├── validate_user_records.py
-│   ├── detect_orphaned_badges.py
-│   ├── audit_least_privilege.py
-│   ├── validate_device_inventory.py
-│   └── run_all_audits.py
-├── docs/
-│   ├── alarm_response_runbook.md
-│   ├── access_provisioning_sop.md
-│   └── escalation_guidelines.md
-└── change_requests/
-    ├── CR-TEMPLATE.md
-    ├── CR-2026-001-revoke-inactive-access.md
-    └── CR-2026-002-fix-device-inventory.md
+└── scripts
+    ├── audit_least_privilege.py
+    ├── detect_orphaned_badges.py
+    ├── legacy
+    │   └── audit_access_integrity.py
+    ├── lib_io.py
+    ├── run_all_audits.py
+    ├── validate_device_inventory.py
+    └── validate_user_records.py
 
 ## Scripts
 - `scripts/validate_user_records.py` - checks for active users without a badge id and for duplicate badge assignments across users
