@@ -21,25 +21,27 @@ A small, documented toolkit that:
 - No security “bypass” content (this is strictly operational validation)
 
 ## Repository structure
+<pre>
 physical-security-data-integrity/
-├── data
-│   ├── access_groups.csv
-│   ├── device_inventory.csv
-│   └── users.csv
-├── docs
-│   ├── access_provisioning_sop.md
-│   ├── alarm_response_runbook.md
-│   └── escalation_guidelines.md
+├── data/
+│   ├── access_groups.csv
+│   ├── device_inventory.csv
+│   └── users.csv
+├── docs/
+│   ├── access_provisioning_sop.md
+│   ├── alarm_response_runbook.md
+│   └── escalation_guidelines.md
 ├── README.md
-└── scripts
+└── scripts/
     ├── audit_least_privilege.py
     ├── detect_orphaned_badges.py
-    ├── legacy
-    │   └── audit_access_integrity.py
+    ├── legacy/
+    │   └── audit_access_integrity.py
     ├── lib_io.py
     ├── run_all_audits.py
     ├── validate_device_inventory.py
     └── validate_user_records.py
+</pre>    
 
 ## Scripts
 - `scripts/validate_user_records.py` - checks for active users without a badge id and for duplicate badge assignments across users
