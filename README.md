@@ -50,5 +50,5 @@ physical-security-data-integrity/
 From the repo root:
 ```bash
 python3 scripts/run_all_audits.py
-
+```
 **This runs all 3 audit scripts sequentially**
