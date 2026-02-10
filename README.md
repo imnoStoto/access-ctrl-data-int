@@ -8,7 +8,7 @@ Enterprise physical security systems are only as reliable as the integrity of th
 - stale or orphan credential records can undermine audits
 - inconsistent inventories and naming conventions slow incident response
 
-This repository demonstrates a **Tier-1 / operations-focused** approach to data hygiene and validation using **mock datasets only**.
+This repository demonstrates a Tier-1 / operations-focused approach to data hygiene and validation using mock datasets only.
 
 ## What this project is
 A small, documented toolkit that:
