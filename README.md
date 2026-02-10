@@ -2,7 +2,7 @@
 
 This is an exploration into basic security-oriented data parsing and sanitation.
 
-## Why this exists
+## Core ideas
 Enterprise physical security systems are only as reliable as the integrity of their data:
 - incorrect access assignments can create security gaps
 - stale or orphan credential records can undermine audits
@@ -15,12 +15,6 @@ A small, documented toolkit that:
 - audits access-control record integrity (mock users, badges, access groups)
 - flags common least-privilege and lifecycle violations (inactive users retaining access, orphan badge assignments)
 - models runbook-driven operational workflows (documentation-first)
-
-## What this project is NOT
-- No integration with live systems
-- No vendor API usage
-- No configuration changes to any production environment
-- No security “bypass” content (this is strictly operational validation)
 
 ## Repository structure
 <pre>
