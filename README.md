@@ -1,6 +1,6 @@
 # Physical Security Data Integrity (Mock)
 
-This is an exploration in basic security-oriented data parsing and sanitation.
+This is an exploration into basic security-oriented data parsing and sanitation.
 
 ## Why this exists
 Enterprise physical security systems are only as reliable as the integrity of their data:
