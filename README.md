@@ -1,5 +1,7 @@
 # Physical Security Data Integrity (Mock)
 
+This is an exploration in basic security-oriented data parsing and sanitation.
+
 ## Why this exists
 Enterprise physical security systems are only as reliable as the integrity of their data:
 - incorrect access assignments can create security gaps
